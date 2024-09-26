@@ -1,0 +1,36 @@
+
+
+.netflix-header {
+    background-color: #111;
+    
+    background-size: cover;
+    height: 60px; /* Adjust height as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .language-button, .sign-in-button {
+    
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }.sign-in-button{
+    background-color: red;
+    font-weight: bolder;
+  }.language-button{
+    background-color: transparent;
+    border: 3px solid white;
+  }
