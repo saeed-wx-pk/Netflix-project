@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Banner/>
-      {/* <RowPost title="Netflix Orginals" />
-      <RowPost title="Comedy Movies"  isSmall/> */}
+      <RowPost title="Netflix Orginals" />
+      <RowPost title="Comedy Movies"  isSmall/>
       <Footer/>
     </div>
   );
